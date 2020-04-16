@@ -1,7 +1,7 @@
 package com.newshak;
 
-import com.newshak.data.Discussion;
-import com.newshak.data.Story;
+import com.newshak.data.model.Discussion;
+import com.newshak.data.model.Story;
 
 import java.util.List;
 
