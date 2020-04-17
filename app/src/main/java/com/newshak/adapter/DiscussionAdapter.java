@@ -117,4 +117,6 @@ public class DiscussionAdapter extends RecyclerView.Adapter<DiscussionAdapter.Vi
     public void addAll(List<Discussion> data) {
         notifyDataSetChanged();
     }
+
+
 }

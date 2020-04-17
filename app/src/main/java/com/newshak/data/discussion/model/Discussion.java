@@ -74,12 +74,12 @@ public class Discussion implements Serializable {
         this.type = type;
     }
 
-    public boolean isDeleted() {
-        return deleted;
+    public void setRemoved(boolean deleted) {
+        this.deleted = deleted;
     }
 
-    public void setDeleted(boolean deleted) {
-        this.deleted = deleted;
+    public boolean getRemoved() {
+        return deleted;
     }
 
     public int getLevel() {

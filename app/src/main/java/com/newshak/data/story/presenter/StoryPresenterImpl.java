@@ -74,7 +74,9 @@ public class StoryPresenterImpl implements StoryPresenter {
                 totalNo = listStoryId.size();
 
                 fetchStories(storyInterface, compositeSubscription, true, false, listStoryId.subList(0, Constants.NO_OF_ITEMS_LOADING));
-            }));
+            },throwable -> logger.error(throwable.getLocalizedMessage())
+
+                    ));
         }
     }
 

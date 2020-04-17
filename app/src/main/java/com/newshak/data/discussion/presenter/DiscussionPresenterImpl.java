@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.newshak.StoryInterface;
-import com.newshak.data.discussion.DiscussionInteractor;
+import com.newshak.data.discussion.data.DiscussionInteractor;
 import com.newshak.data.discussion.model.Discussion;
 import com.newshak.data.discussion.view.DiscussionView;
 import com.newshak.data.story.model.Story;
