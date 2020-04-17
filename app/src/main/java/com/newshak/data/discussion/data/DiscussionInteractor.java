@@ -15,9 +15,9 @@ public interface DiscussionInteractor {
 
     public Observable<List<Discussion>> getPartsComment(final StoryInterface mInterface, final int level, List<Long> cmtIds);
 
-    public Observable<List<Discussion>> getSinglePartComment(final StoryInterface mInterface, final int level, final long cmtId);
+    public Observable<List<Discussion>> getSinglePartComment(final StoryInterface mInterface, final int level, final Long cmtId);
 
-    public Observable<List<Discussion>> getAllComments(final StoryInterface mInterface, final int level, final List<Long> firstLevelCmtIds);
+    public Observable<List<Discussion>> getAllComments(final StoryInterface mInterface, int level, final List<Long> firstLevelCmtIds);
 
     public Observable<Discussion> getInnerLevelComments(final StoryInterface mInterface, final int level, Discussion cmt);
 
