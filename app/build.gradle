@@ -70,4 +70,7 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
+
+    implementation 'org.apache.commons:commons-text:1.8'
+
 }
