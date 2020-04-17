@@ -1,4 +1,4 @@
-package com.newshak.data.model;
+package com.newshak.data.discussion.model;
 
 import java.io.Serializable;
 import java.util.HashMap;

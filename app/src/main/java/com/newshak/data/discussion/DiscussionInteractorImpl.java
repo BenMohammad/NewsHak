@@ -1,12 +1,11 @@
-package com.newshak.data;
+package com.newshak.data.discussion;
 
 import com.newshak.StoryInterface;
-import com.newshak.data.model.Discussion;
-import com.newshak.data.model.Story;
+import com.newshak.data.discussion.model.Discussion;
+import com.newshak.data.story.model.Story;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.logging.Logger;
 
 import javax.inject.Singleton;
 
